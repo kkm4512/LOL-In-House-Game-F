@@ -32,9 +32,9 @@
         </div>
         <hr class="border-2 border-black mt-2" />
         <div class="flex justify-center mt-10">
-          <img src="../static/포로.jpg" class="border-2 boder-black" />
+          <img src="/static/포로.jpg" class="border-2 boder-black" />
         </div>
-        <img src="../static/Vs.jpg" alt="VS" class="vs-image" />
+        <img src="/static/Vs.jpg" alt="VS" class="vs-image" />
       </div>
 
       <div class="team border-2 rounded-xl border-blue-500 p-5">
