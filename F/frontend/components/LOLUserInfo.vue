@@ -1,4 +1,5 @@
 <template>
+  <h1>gdgd</h1>
   <div class="flex flex-col h-screen gap-4 p-12 justify-center">
     <div
       v-for="index in 10"
