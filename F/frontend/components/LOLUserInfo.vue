@@ -222,7 +222,7 @@ async function submitForm() {
 }
 
 body {
-    transform: scale(0.67);
-    transform-origin: top center; /* 확대/축소 기준점을 상단 중앙으로 설정 */
-  }
+  transform: scale(0.67);
+  transform-origin: top center; /* 확대/축소 기준점을 상단 중앙으로 설정 */
+}
 </style>
