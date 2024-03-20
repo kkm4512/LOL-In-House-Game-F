@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen gap-4 p-12 justify-center">
+  <div class="flex flex-col h-screen gap-4 p-12 justify-center body mt-[8%]">
     <div
       v-for="index in 10"
       :key="index"
@@ -220,4 +220,9 @@ async function submitForm() {
   cursor: pointer;
   width: auto;
 }
+
+body {
+    transform: scale(0.67);
+    transform-origin: top center; /* 확대/축소 기준점을 상단 중앙으로 설정 */
+  }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <LOLMatchingComponent />
   </div>
 </template>
@@ -10,6 +10,6 @@ import LOLMatchingComponent from '~/components/LOLMatchingComponent.vue';
 
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container">
+  <div class="content-container h-screen flex gap-4 mt-[10%]">
     <div class="teams-container">
       <div class="team border-2 rounded-xl border-red-500 p-5">
         <h2 class="team-title flex justify-center items-center">A팀</h2>
@@ -101,4 +101,9 @@ const usersStore = useLOLPlayerUserInfo();
   list-style-type: none;
   font-size: 1.5rem;
 }
+
+body {
+    transform: scale(0.67);
+    transform-origin: top center; /* 확대/축소 기준점을 상단 중앙으로 설정 */
+  }
 </style>
